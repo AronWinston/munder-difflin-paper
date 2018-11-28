@@ -7,7 +7,7 @@
     border-radius: 50%;
     display: flex;
     animation: rotation;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     
@@ -35,17 +35,17 @@
     font-style: italic;
     justify-content: center;
     animation: slideacross;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     
 }
 
-
-
-
-
+.munderproducts {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
