@@ -1,1 +1,50 @@
+#logo{
+    background-color: red;
+    justify-content: center;
+    align-content: stretch;
+    height: 200px;
+    width: 1350px;
+    border-radius: 50%;
+    display: flex;
+    animation: rotation;
+    animation-duration: 2s;
+    
+}
 
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+    
+}
+
+.navi > div {
+    width: 300px;
+    margin: 10PX;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes rotation{
+    0% {
+        transform: rotate(90deg);
+        opacity: .5;
+    }
+    50%{
+        opacity: .75;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
