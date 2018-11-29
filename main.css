@@ -60,8 +60,7 @@ section {
     justify-content: center;
     align-content: center;
     padding: 10px;
-    
-    
+    opacity: 0;
 }
 
 section:nth-child(1){
@@ -86,6 +85,19 @@ img.fun {
 
 }
 
+@keyframes fadin {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
