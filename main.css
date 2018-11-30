@@ -1,34 +1,56 @@
 #logo{
     background-color: red;
-    justify-content: center;
-    align-content: stretch;
     height: 200px;
-    width: 1350px;
+    width: 1376px;
     border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-content: stretch;
     animation: rotation;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    
 }
+
+h2{
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+
 
 .navi{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     background-color: red;
+   
     
-}
+    }
+        a{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            font-size: 25px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            border: 5px; 
+            font-size: 25px;
+            border-style: solid;
+            border-color: blue;
+        }
 
-.navi > div {
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-    font-size: 25px;
-    text-align: right;
+        a:hover{
+            border-style: solid;
+            border-color: blue;
+            background-color: lightgray;
+            }
 
-}
+        
+   
+
 
 #slogan{
     display: flex;
@@ -47,11 +69,21 @@ h3 {
     justify-content: center;
     font-size: 30px;
     font-family: serif;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
 }
 
 .munderproducts {
     display: flex;
     justify-content: space-evenly;
+    
+}
+
+p.highs { 
+    display: inline;
+    font-size: 25px;
+
 }
 
 section {
@@ -65,22 +97,8 @@ section {
 
 section.fadein {
     animation: fadein;
-    animation-duration: .5s;
+    animation-duration: .8s;
     animation-fill-mode: forwards;
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: .5;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 section:nth-child(1){
@@ -95,6 +113,26 @@ section:nth-child(3){
     background: lightgoldenrodyellow;
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 img.fun {
     display: flex;
@@ -102,7 +140,8 @@ img.fun {
     
     height: 400px;
     width: 400px;
-
+    margin: 10px;
+    padding: 20px
 }
 
 

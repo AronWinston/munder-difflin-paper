@@ -1,6 +1,6 @@
 'use strict'
 
-// alert("Hello and Welcome to Munder Difflin.  Company for Legends only")
+alert("Hello and Welcome to Munder Difflin.  Company for Legends only")
 
 let sections = document.getElementsByTagName('section');
 let section1 = sections[0];
@@ -16,10 +16,16 @@ window.addEventListener ('scroll', (event) => {
         section2.classList.add("fadein");
     }
 
-    if (window.scrollY > 1740) {
-        section3.classList.add("fadein")
+    if (window.scrollY > 1500) {
+        section3.classList.add("fadein");
     }
 })
+
+// let pictures = document.getElementsByClassName('products');
+
+// document.addEventListener('click', (event)) =>{
+
+// }
 
 
 
