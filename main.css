@@ -101,17 +101,6 @@ section.fadein {
     animation-fill-mode: forwards;
 }
 
-section:nth-child(1){
-    background:lightblue; 
-}
-
-section:nth-child(2){
-    background: lightcoral;
-}
-
-section:nth-child(3){
-    background: lightgoldenrodyellow;
-}
 
 @keyframes fadein {
     0% {
@@ -146,12 +135,17 @@ img.fun {
 
 img.products.products-bigger {
     animation: big;
-    animation-duration: .5s;
+    animation-duration: 2s;
     
     
 }
 
-
+footer {
+    display: inline-block;
+    justify-items: center;
+    height: 200px;
+    
+}
 
 
 
