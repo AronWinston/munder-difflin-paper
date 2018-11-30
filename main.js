@@ -1,6 +1,6 @@
 'use strict'
 
-alert("Hello and Welcome to Munder Difflin.  Company for Legends only")
+// alert("Hello and Welcome to Munder Difflin.  Company for Legends only")
 
 let sections = document.getElementsByTagName('section');
 let section1 = sections[0];
