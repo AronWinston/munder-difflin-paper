@@ -21,11 +21,13 @@ window.addEventListener ('scroll', (event) => {
     }
 })
 
-// let pictures = document.getElementsByClassName('products');
+let pictures = document.getElementsByClassName("products");
 
-// document.addEventListener('click', (event)) =>{
+window.addEventListener('click', (event) =>{
+    for(let i = 0; i <= pictures.length - 1; i++)
+    pictures[i].classList.toggle('products-bigger');
 
-// }
+})
 
 
 
